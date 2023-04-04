@@ -8,10 +8,11 @@ Category.init(
   {
     // define columns
     id:{
-      type:DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncerment: true,
+      //AUTO_INCREMENT:1,
     },
     category_name:{
       type: DataTypes.STRING,
@@ -20,6 +21,7 @@ Category.init(
   },
   {
     sequelize,
+    //initialAutoIncrement: 1,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
