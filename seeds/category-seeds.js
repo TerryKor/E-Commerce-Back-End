@@ -2,7 +2,7 @@ const { Category } = require('../models');
 
 const categoryData = [
   {
-  //  id:1,
+  // id:1,
     category_name: 'Shirts',
   },
   {
@@ -10,11 +10,11 @@ const categoryData = [
     category_name: 'Shorts',
   },
   {
- //   id:3,
+  //  id:3,
     category_name: 'Music',
   },
   {
-   // id:4,
+    // id:4,
     category_name: 'Hats',
   },
   {
